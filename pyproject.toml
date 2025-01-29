@@ -1,0 +1,19 @@
+[project]
+name = "flask-tutorial"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "jinyang628",email = "chenjinyang4192@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask (>=3.1.0,<4.0.0)",
+    "black (>=25.1.0,<26.0.0)",
+    "isort (>=6.0.0,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

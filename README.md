@@ -27,3 +27,13 @@ cp .env.example .env
 black . # Check Python code style
 isort . # Sort Python imports
 ```
+
+## Commands
+
+```bash
+# Quick Start
+flask --app flaskr run --debug
+
+# Initialize database
+$ flask --app flaskr init-db
+```

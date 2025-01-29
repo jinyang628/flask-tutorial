@@ -26,10 +26,10 @@ jobs:
         run: |
           poetry install --no-interaction --no-root
 
-    #   - name: Run pytest
-    #     run: |
-    #       export PYTHONPATH=$PYTHONPATH:$(pwd)
-    #       poetry run pytest
+      - name: Run pytest
+        run: |
+          export PYTHONPATH=$PYTHONPATH:$(pwd)
+          poetry run pytest
 
       - name: Run isort
         run: |
